@@ -1,0 +1,14 @@
+
+mark: 4
+
+notes:
+-in swap.py, could put print statement at the end (since it's repeated) and 
+ just need one if statement, not if-else (see solution)
+-in hangman.py, get a NameError when I run it because r isn't defined - this
+ is because - is mixed up with _, so r is defined within an if statement that
+ doesn't get run. count also seems to be mixed up with counter, and because
+ you're using index the phrase replaces only one character at a time. the
+ length of the shown phrase is also specific to this secret phrase.
+-in hangman.py, more extensive commenting would help explain what you're 
+ trying to do, which in turn would help me give partial credit
+
