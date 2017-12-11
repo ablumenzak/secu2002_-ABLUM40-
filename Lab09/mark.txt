@@ -1,0 +1,5 @@
+
+mark: 3
+
+notes:
+-in bin_find, it would be better to print count rather than return it
